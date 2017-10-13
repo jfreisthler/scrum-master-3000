@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="1000dp"
+    android:layout_height="fill_parent"
+    android:background="#444444"
+    android:padding="10px"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:text="Activity Details"
+        android:textColor="@color/white"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/jira_tasks"
+        android:background="@drawable/border"
+        android:layout_width="fill_parent"
+        android:layout_height="212dp"
+        android:padding="10px"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Status"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|bottom">
+
+        <Button android:id="@+id/end_data_send_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3sp"
+            android:layout_centerHorizontal="true"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
